@@ -40,7 +40,7 @@ Method: POST <br>
 | phone            | String        | เบอร์โทรศัพท์มือถือสมาชิก    |
 | birthday         | String        | วันเดือนปีเกิด (YYYY-mm-dd) |
 | member_class     | String        | ระดับสมาชิกปัจจุบัน         |
-| points           | String        | คะแนนคงเหลือ             |
+| points           | Number        | คะแนนคงเหลือ             |
 
 ### ตัวอย่าง Response
 ```json
