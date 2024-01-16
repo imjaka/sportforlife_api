@@ -41,25 +41,25 @@ Method: POST <br>
 | birthday         | String        | วันเดือนปีเกิด (YYYY-mm-dd) |
 | member_class     | String        | ระดับสมาชิกปัจจุบัน         |
 | member_class_by  | String        | ระดับสมาชิกก่อนหน้า        |
+| points           | String        | คะแนนคงเหลือ             |
 
 ### ตัวอย่าง Response
 ```json
 {
     "status": "success",
-    "data": [
-        {
-            "id": "1",
-            "username": "admin",
-            "email": "imjaka.pk@gmail.com",
-            "activation_email": "1",
-            "first_name": "SPORT FOR LIFE",
-            "last_name": "ADMIN",
-            "gender": "M",
-            "phone": "0873574494",
-            "birthday": null,
-            "member_class": "Exclusive",
-            "member_class_by": "exclusive"
-        }
-    ]
+    "data": {
+        "id": "1",
+        "username": "admin",
+        "email": "imjaka.pk@gmail.com",
+        "activation_email": "1",
+        "first_name": "SPORT FOR LIFE",
+        "last_name": "ADMIN",
+        "gender": "M",
+        "phone": "0873574494",
+        "birthday": null,
+        "member_class": "Exclusive",
+        "member_class_by": "exclusive",
+        "points": 109
+    }
 }
 ```
