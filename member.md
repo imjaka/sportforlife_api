@@ -40,7 +40,6 @@ Method: POST <br>
 | phone            | String        | เบอร์โทรศัพท์มือถือสมาชิก    |
 | birthday         | String        | วันเดือนปีเกิด (YYYY-mm-dd) |
 | member_class     | String        | ระดับสมาชิกปัจจุบัน         |
-| member_class_by  | String        | ระดับสมาชิกก่อนหน้า        |
 | points           | String        | คะแนนคงเหลือ             |
 
 ### ตัวอย่าง Response
