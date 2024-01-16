@@ -30,10 +30,10 @@ Method: POST <br>
 ### Response
 | Field            | Type          | Description             |
 | -----------------|---------------| ------------------------|
-| id               | Int           | รหัสสมาชิก                |
+| id               | Number        | รหัสสมาชิก                |
 | username         | String        | ชื่อผู้ใช้                   |
 | email            | String        | อีเมลสมาชิก               |
-| activation_email | Int           | 1=ยืนยันอีเมลแล้ว 0=ยังไม่ยืนยัน |
+| activation_email | Number        | 1=ยืนยันอีเมลแล้ว 0=ยังไม่ยืนยัน |
 | first_name       | String        | ชื่อจริงสมาชิก              |
 | last_name        | String        | นามสกุลสมาชิก            |
 | gender           | String        | M=เพศชาย F=เพศหญิง      |
