@@ -30,7 +30,7 @@ Method: POST <br>
 ### Response
 | Field            | Type          | Description             |
 | -----------------|---------------| ------------------------|
-| id               | Number        | รหัสสมาชิก                |
+| id               | String        | รหัสสมาชิก                |
 | username         | String        | ชื่อผู้ใช้                   |
 | email            | String        | อีเมลสมาชิก               |
 | activation_email | Number        | 1=ยืนยันอีเมลแล้ว 0=ยังไม่ยืนยัน |
